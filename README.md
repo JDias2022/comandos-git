@@ -434,11 +434,18 @@ O GIT irá navegar entre os commits para ajudar a indentificar o commit que esta
 	git bisect good
 
 ##### Marcar o commit como ruim
+Se o commit estiver com o problema, então ele deverá ser marcado como **ruim**.
+
+ 	git bisect bad
+ 
+##### Finalizar a pesquisa binária
+Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 	
+	git bisect reset
+ 	
+
 	
-	
-	=============================================================================
-DEIXAR NA MENTE!
+	=== DEIXAR NA MENTE! ===
 
 cd portifoliodias
 code .
@@ -453,27 +460,16 @@ git push origin nomebranch
 git checkout nomebranch
 git checkout -b versao1
 
-git config --global user.email "adrianolegion@gmail.com"
+git config --global user.email "EMAIL"
+git config --global user.name "NOME"
 
-git config --global user.name "JDias2022"
+git remote add origin LINK DO REPOSITORIO
 
-git remote add origin https://github.com/JDias2022/portifoliodias.git
-
-ssh-keygen -t rsa -b 4096 -c "adrianolegion@gmail.com"
+ssh-keygen -t rsa -b 4096 -c "SEUEMAIL"
 
 
 npx create-react-app + nome do seu projeto
 
 git init
 
-=============================================================================
-Se o commit estiver com o problema, então ele deverá ser marcado como **ruim**.
-
- 	git bisect bad
- 
-##### Finalizar a pesquisa binária
-Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
-	
-	git bisect reset
- 	
-
+=== END ===
