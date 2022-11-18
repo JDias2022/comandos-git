@@ -434,6 +434,39 @@ O GIT irá navegar entre os commits para ajudar a indentificar o commit que esta
 	git bisect good
 
 ##### Marcar o commit como ruim
+	
+	
+	
+	=============================================================================
+DEIXAR NA MENTE!
+
+cd portifoliodias
+code .
+
+git remote add origin link do repositório
+git clone LINK DO REPOSITORIO
+git status
+git add .
+git commit -m "comentário
+git push origin nomebranch
+
+git checkout nomebranch
+git checkout -b versao1
+
+git config --global user.email "adrianolegion@gmail.com"
+
+git config --global user.name "JDias2022"
+
+git remote add origin https://github.com/JDias2022/portifoliodias.git
+
+ssh-keygen -t rsa -b 4096 -c "adrianolegion@gmail.com"
+
+
+npx create-react-app + nome do seu projeto
+
+git init
+
+=============================================================================
 Se o commit estiver com o problema, então ele deverá ser marcado como **ruim**.
 
  	git bisect bad
