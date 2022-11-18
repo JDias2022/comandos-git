@@ -444,32 +444,33 @@ Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 	git bisect reset
  	
 
+
 	
-	=== DEIXAR NA MENTE! ===
+#### DEIXAR NA MENTE
 
-cd portifoliodias
-code .
+	cd portifoliodias
+	code .
 
-git remote add origin link do repositório
-git clone LINK DO REPOSITORIO
-git status
-git add .
-git commit -m "comentário
-git push origin nomebranch
+	git remote add origin link do repositório
+	git clone LINK DO REPOSITORIO
+	git status
+	git add .
+	git commit -m "comentário
+	git push origin nomebranch
 
-git checkout nomebranch
-git checkout -b versao1
+	git checkout nomebranch
+	git checkout -b versao1
 
-git config --global user.email "EMAIL"
-git config --global user.name "NOME"
+	git config --global user.email "EMAIL"
+	git config --global user.name "NOME"
 
-git remote add origin LINK DO REPOSITORIO
+	git remote add origin LINK DO REPOSITORIO
 
-ssh-keygen -t rsa -b 4096 -c "SEUEMAIL"
+	ssh-keygen -t rsa -b 4096 -c "SEUEMAIL"
 
 
-npx create-react-app + nome do seu projeto
+	npx create-react-app + nome do seu projeto
 
-git init
+	git init
 
-=== END ===
+
